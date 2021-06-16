@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h2>1001716017</h2>
+        <h2>Maitri Nilesh Patel</h2>
+    </head>
+    <body>
+        <h3>How many quakes within specified distance from specified location</h3>
+        <form action="/searchAreainkm" method="POST">
+                 latitude : <input type="text" name="latitude">
+                 longitude : <input type="text" name="longitude">
+                Distance : <input type="text" name="distance">
+                <input type="submit" value="Submit">
+        </form>
+        <h3>Count of all earthquakes that occurred with a magnitude greater than 5.0 </h3>
+        <form action="/magnitude5" method="POST">
+                magnitude : <input type="text" name="magnitude5">
+        
+                <input type="submit" value="Submit">
+        </form>
+        <h3>Earthquakes for given magnitude range for given days</h3>
+        <form action="/rangemagnitude" method="POST">
+           Days : <input type="text" name="days">
+           Minimum_magnitude : <input type="text" name="Min_magnitude">
+           Maximum_magnitude : <input type="text" name="Max_magnitude">
+                <input type="submit" value="Submit">
+        </form>
+ 
+    
+        <h3>Do large (>4.0 mag) occur more often at night? </h3>
+        <form action="/daynight" method="POST">
+             Let's find out(Click on Submit to find) 
+
+            <input type="submit" value="Submit">
+        </form>
+    
+        </body>
+</html>
