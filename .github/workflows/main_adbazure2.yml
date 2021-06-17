@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'adbazure2'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_85d23db7e03a4ff2bbdb73005976a980 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_54a97659276b4d53afaf864c4a82eb84 }}
